@@ -1,0 +1,160 @@
+.clear-fix {
+  clear: both;
+}
+
+#navbar {
+  /* navbar */
+  text-align: center;
+}
+#navbar ul {
+  /* navbar ul (the list)*/
+  list-style: none;
+}
+#navbar li {
+  /* navbar li  (the points)*/
+  font-size: 40px;
+  display: inline;
+}
+#navbar a {
+  /* navbar a (the links)*/
+  padding: 0 5%;
+  color: #333;
+}
+
+#showcase {
+  /* showcase */
+  text-align: center;
+  margin: 4% 0;
+}
+
+#showcase h1 {
+  /* showcase h1 */
+  font-size: 30px;
+  line-height: 1.6em;
+}
+#showcase p {
+  /* showcase p */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6em;
+}
+#html-section {
+  /* html-section */
+  display: flex;
+  margin: auto;
+  width: 30%;
+  padding: 20px;
+  margin-bottom: 150px;
+  border: solid;
+  min-width: 25%;
+  background-color: #333;
+}
+#html-text {
+  /* html-text */
+  width: 60%;
+  font-size: 20px;
+  float: left;
+  color: white;
+}
+#html-section img {
+  /* html-section img */
+  width: 40%;
+  float: right;
+}
+
+#css-section {
+  /* css-section */
+  display: flex;
+  margin: auto;
+  width: 30%;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: solid;
+  min-width: 25%;
+  background-color: #333;
+}
+#css-text {
+  /* css-text */
+  width: 60%;
+  font-size: 20px;
+  float: left;
+  color: white;
+}
+#css-section img {
+  /* css-section img */
+  width: 40%;
+  float: right;
+}
+#main-footer {
+  /* main-footer */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  color: white;
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+}
+#main-footer a {
+  /* main-footer a */
+  color: white;
+}
+
+/* For small screens */
+@media (max-width: 1250px) {
+  #html-section {
+    /* html-section */
+    float: none;
+    width: 80%;
+    padding: 0;
+    margin: 10%;
+  }
+  #html-text {
+    /* html-text */
+    text-align: center;
+    width: 75%;
+  }
+  #html-section img {
+    /* html-section img */
+    width: 25%;
+  }
+  #css-section {
+    /* css-section */
+    float: none;
+    width: 80%;
+    padding: 0;
+    margin: 10%;
+  }
+  #css-text {
+    /* css-text */
+    width: 75%;
+    text-align: center;
+  }
+  #css-section img {
+    /* css-section img */
+    width: 25%;
+  }
+}
+/* For mobile phones: */
+@media (max-width: 600px) {
+  #html-text {
+    /* html-text */
+    width: 100%;
+    text-align: center;
+  }
+  #html-section img {
+    /* html-section img */
+    display: none;
+  }
+  #css-text {
+    /* css-text */
+    width: 100%;
+    text-align: center;
+  }
+  #css-section img {
+    /* css-section img */
+    display: none;
+  }
+}
